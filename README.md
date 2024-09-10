@@ -8,7 +8,7 @@ The Memory Card Game involves clicking on cards to reveal their images. The goal
 
 ## Live Preview
 
-Check out the live preview of the project [here](#)
+Check out the live preview of the project [here](https://memory-card-game-virid.vercel.app/)
 
 ## Features
 
