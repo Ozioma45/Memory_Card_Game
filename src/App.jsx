@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import Card from "./components/Card";
 import Scoreboard from "./components/Scoreboard";
 import "./App.css";
+import CardGrid from "./components/CardGrid";
 
 const App = () => {
   const [cards, setCards] = useState([]);
@@ -55,11 +55,7 @@ const App = () => {
     <div className="App">
       <h1 className="headOne">Memory Card Game</h1>
       <Scoreboard score={score} bestScore={bestScore} />
-      <div className="card-grid">
-        {cards.map((card) => (
-          <Card key={card.id} card={card} onClick={handleCardClick} />
-        ))}
-      </div>
+      <CardGrid cards={cards} handleCardClick={handleCardClick} />
     </div>
   );
 };
