@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import Scoreboard from "./components/Scoreboard";
-import "./App.css";
 import CardGrid from "./components/CardGrid";
+
+import "./App.css";
 
 const App = () => {
   const [cards, setCards] = useState([]);
